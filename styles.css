@@ -86,6 +86,8 @@ a { color: inherit; text-decoration: none; }
 .entry .source-link { display: inline-block; margin-top: 11px; }
 
 .publications { background: var(--white); }
+.publications + .publications { padding-top: 0; }
+.publication-category > h2 { margin: 0 0 40px; font-size: 29px; font-weight: 500; letter-spacing: -.03em; }
 .publication-groups { display: grid; gap: 64px; }
 .publication-year > h2, .publication-year > h3 { margin: 0 0 14px; color: var(--green); font-size: 15px; font-weight: 600; }
 .publication-year ol { margin: 0; padding: 0; list-style: none; border-top: 1px solid var(--line); }
